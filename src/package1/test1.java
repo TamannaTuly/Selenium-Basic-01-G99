@@ -25,6 +25,7 @@ public class test1 {
             System.out.println(actualTitle);
             System.out.println("Failed");
         }
-        driver.close();
+//        driver.close();
+        System.exit(0);
     }
 }
