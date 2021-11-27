@@ -20,8 +20,9 @@ public class test2_0 {
 
         System.out.println(tagName);
         System.out.println(tagName2);
-        driver.close();
-        System.exit(0);
+//        driver.close();
+//        System.exit(0);
+        driver.quit();
 
 
     }
