@@ -16,7 +16,7 @@ public class test4_1ImageClicks {
 
         driver.get(baseUrl);
         Thread.sleep(3000);
-        driver.findElement(By.cssSelector("#content > div > div._9ol3 > div > div:nth-child(1) > div > div.j83agx80.i1fnvgqd.k4urcfbm.n7fi1qx3.j9ispegn.kr520xx4.pmk7jnqg.ehxjyohh > div.l9j0dhe7.buofh1pr.j83agx80.bp9cbjyn > div > div.bp9cbjyn.j83agx80.byvelhso.pedkr2u6.ijkhr0an.pnx7fd3z.sgqwj88q.k4urcfbm.f4muv6rs > a > svg")).click();//to capture selector, go to the baseURL and press ctrl+shift+I and then select the element and then copy the selector option
+        driver.findElement(By.cssSelector("#content > div > div._9ol3 > div > div:nth-child(1) > div > div.j83agx80.i1fnvgqd.k4urcfbm.n7fi1qx3.j9ispegn.kr520xx4.pmk7jnqg.ehxjyohh > div.l9j0dhe7.buofh1pr.j83agx80.bp9cbjyn")).click();//to capture selector, go to the baseURL and press ctrl+shift+I and then select the element and then copy the selector option
         Thread.sleep(3000);
         String actualUrl= driver.getCurrentUrl();
         if(actualUrl.equals(expectedUrl)){
