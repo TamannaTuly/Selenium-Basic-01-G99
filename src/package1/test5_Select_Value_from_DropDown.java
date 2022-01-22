@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import javax.swing.plaf.synth.SynthEditorPaneUI;
+
 
 public class test5_Select_Value_from_DropDown {
 
@@ -20,6 +22,13 @@ public class test5_Select_Value_from_DropDown {
         Select drpCountry = new Select(driver.findElement(By.name("country")));
         drpCountry.selectByVisibleText("BANGLADESH");
 
+//        if(drpCountry.getAllSelectedOptions().equals(eText)){
+//            System.out.println("Success");
+//        }
+//        else {
+//            System.out.println(drpCountry.getAllSelectedOptions());
+//            System.out.println("Failed");
+//        }
     }
 
 
